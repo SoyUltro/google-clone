@@ -27,7 +27,6 @@ const Home = () => {
         <title>Google</title>
       </Head>
 
-      {/* Header */}
       <header className="flex w-full p-5 justify-between text-sm text-gray-700">
         {/* Left */}
         <div className="flex space-x-4 items-center">
