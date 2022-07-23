@@ -53,6 +53,7 @@ const Home = () => {
           src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           width={300}
           height={100}
+          alt="google logo"
         />
 
         {/* Text Input */}
@@ -71,7 +72,7 @@ const Home = () => {
           <button type="submit" className="btn">
             Google Search
           </button>
-          <button className="btn">I'm Feeling Lucky</button>
+          <button className="btn">{`I\'m Feeling Lucky`}</button>
         </div>
       </form>
 

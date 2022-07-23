@@ -28,6 +28,7 @@ const Header = () => {
           height={40}
           onClick={() => router.push("/")}
           className="cursor-pointer"
+          alt="google logo"
         />
         <form
           onSubmit={search}
