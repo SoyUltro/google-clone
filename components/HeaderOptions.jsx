@@ -10,7 +10,7 @@ import {
 
 const HeaderOptions = () => {
   return (
-    <div className="flex w-full text-gray-700 justify-evenly text-sm border-b lg:text-base lg:justify-start lg:space-x-36 lg:pl-52">
+    <div className="flex w-full text-gray-700 justify-evenly text-sm border-b border-b-google-400 lg:text-base lg:justify-start lg:space-x-36 lg:pl-52">
       {/* Left */}
       <div className="flex space-x-6 ">
         <HeaderOption Icon={SearchIcon} title="All" selected />
@@ -23,7 +23,6 @@ const HeaderOptions = () => {
       {/* Right */}
       <div className="flex space-x-4">
         <p className="link">Settings</p>
-        <p className="link">Tools</p>
       </div>
     </div>
   );
